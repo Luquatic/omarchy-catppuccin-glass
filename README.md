@@ -4,7 +4,7 @@ A Cattpuccin-mocha theme with a glass twist!
 
 This theme uses the Cattpuccin-mocha [palette](https://catppuccin.com/palette/) with a glass background
 
-<img width="2559" height="1440" alt="screenshot-2025-10-27_21-57-20" src="https://github.com/user-attachments/assets/0deafa90-7943-4cd8-acf7-f4c35f235338" />
+<img width="3840" height="2160" alt="preview" src="https://github.com/user-attachments/assets/079c6414-2c7a-4fe0-8172-be8f3d3fd04f" />
 
 # Installation
 
