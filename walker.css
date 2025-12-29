@@ -1,0 +1,89 @@
+@define-color text #cdd6f4;
+@define-color base #1a1b1e;
+@define-color border #ffffff55;
+@define-color foreground #eaeaef;
+@define-color background #1a1b1e;
+@define-color hover #2a2b2e;
+@define-color accent #f0f0f0;
+
+/* Window Styling */
+window .box-wrapper {
+  background: alpha(@base, 0.2);
+  border-radius: 8px;
+  padding: 8px 2px;
+  color: @text;
+  border: 1px solid @border;
+  margin: 0;
+}
+
+window .search-container,
+window .search {
+  background: transparent;
+  border-radius: 8px;
+  color: @foreground;
+  border: 1px solid alpha(@border, 0.5);
+  padding: 8px 12px;
+  margin: 10px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* Selected Item Styling */
+child:selected {
+  border-radius: 8px;
+  transition: all 0.15s ease-out;
+  transition: background-color 0s ease-out;
+  /* box-shadow: */
+  /*   0 0 3px rgba(0, 0, 0, 0.2), */
+  /*   0 0 3px rgba(0, 0, 0, 0.2); */
+}
+
+child:selected .item-box {
+  background: linear-gradient(90deg, alpha(@accent, 0.2), transparent 100%);
+  border-radius: 8px;
+  transform: translateX(4px);
+  transition:
+    background 150ms cubic-bezier(0.25, 0.8, 0.25, 1),
+    transform 150ms cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+/* Revert Selected Item Color */
+child:selected .item-box * {
+  color: @text;
+}
+
+/* Enable Quick Activation Hints */
+.item-quick-activation {
+  font-size: 12px;
+  color: alpha(@text, 0.15);
+  margin-right: 2rem;
+}
+
+/* Transparent Search Bar */
+.search-container {
+  background-color: transparent;
+}
+
+/* Animations */
+child,
+.item-box {
+  transition:
+    background 150ms cubic-bezier(0.25, 0.8, 0.25, 1),
+    border-left 150ms ease,
+    transform 150ms ease;
+}
+
+window .list child {
+  animation: slideIn 180ms ease-out forwards;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-15px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
