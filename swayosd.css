@@ -1,5 +1,5 @@
-@define-color background-color #1a1b1e;
-@define-color border-color #89b4fa;
-@define-color label #cad3f5;
-@define-color image #cad3f5;
-@define-color progress #cad3f5;
+@define-color background-color #1a1b1e40;
+@define-color border-color #ffffff55;
+@define-color label #eaeaef;
+@define-color image #eaeaef;
+@define-color progress #eaeaef;
