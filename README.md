@@ -28,3 +28,7 @@ For the same terminal look copy the `starship.toml` into your `~/.config` direct
 # Credits
 
 This theme is inspired by the [Catppuccin](https://github.com/catppuccin) project. Special thanks to their team for creating an amazing color palette!
+
+# License
+
+[MIT License](https://opensource.org/licenses/MIT)
