@@ -2,7 +2,9 @@
 
 A Cattpuccin-mocha theme with a glass twist!
 
-This theme uses the Cattpuccin-mocha [palette](https://catppuccin.com/palette/) with a glass background
+This theme uses the Cattpuccin-mocha [palette](https://catppuccin.com/palette/) with a glass background.
+
+Also check out my [Dark](https://github.com/Luquatic/omarchy-catppuccin-dark) variant.
 
 <img width="3840" height="2160" alt="preview" src="https://github.com/user-attachments/assets/079c6414-2c7a-4fe0-8172-be8f3d3fd04f" />
 
